@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .container{
@@ -86,22 +88,67 @@ main img{
   left: 0;
 }
 
+.card img.cover:hover{
+  display: none;
+}
+
 .discount{
+  position: absolute;
+  left: 0px;
+  bottom: 80px;
+  z-index: 50;
   background-color: red;
   color: white;
   padding: 5px 10px;
 }
 
 .bg-green{
+  position: absolute;
+  left: 0px;
+  bottom: 80px;
+  z-index: 50;
   background-color: green;
   color: white;
   padding: 5px 10px;
 }
 
 .heart{
+  position: absolute;
+  right: -2px;
+  top: 10px;
   background-color: white;
   color: black;
   font-size: 30px;
   line-height: 40px;
-  padding: 15px;
+  padding: 5px 15px;
+  z-index: 50;
+}
+
+.heart:hover{
+ color: red;
+}
+
+.brand{
+  display: block;
+}
+
+.name{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.price{
+ color: red;
+}
+
+.original-price{
+  text-decoration: line-through;
+  color: black;
+}
+
+.levi .bg-green{
+  position: absolute;
+  left: 55px;
+  bottom: 80px;
 }
