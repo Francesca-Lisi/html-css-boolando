@@ -152,3 +152,48 @@ main img{
   left: 55px;
   bottom: 80px;
 }
+
+/************FOOTER*************/
+
+footer{
+  background-color: #1A1A1A;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  height: 80px;
+  padding-top: 20px;
+}
+
+footer .info span{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer .info ul li{
+  display: inline-block;
+  list-style-type: none;
+  font-weight: 100;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+
+footer .info ul li a{
+  padding: 10px 15px 10px 0;
+  list-style-type: none;
+  font-weight: 100;
+  text-decoration: none;
+  color: white;
+}
+
+footer span.social-buttons{
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+footer i{
+  font-size: 20px;
+  padding-right: 5px;
+}
