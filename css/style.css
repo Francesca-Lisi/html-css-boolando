@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #fe6900;
+  color: white;
+}
+
+header .container{
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+header .container .categorie{
+  justify-content: space-between;
+}
+
+header .container .categorie a{
+  text-decoration: none;
+}
